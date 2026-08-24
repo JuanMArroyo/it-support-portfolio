@@ -8,7 +8,9 @@ My background includes hands-on experience with networking tools (Nmap, Wireshar
 
 - **[network_troubleshooting_reference.md](./network_troubleshooting_reference.md)** — A structured, layer-by-layer diagnostic framework for resolving "no internet" connectivity issues (DHCP, local network, internet reachability, DNS), including failure modes, fixes, PowerShell/CMD command references across Windows/macOS/Linux, and a worked example of a full support call from intake to resolution.
 
-More pieces will be added here as they're completed, covering areas like Microsoft 365 / Active Directory administration and support ticket workflows.
+- **[m365_admin_center_guide.md](./m365_admin_center_guide.md)** — A hands-on walkthrough of Microsoft 365 admin center tasks: department group creation with shared mailboxes, user account provisioning, group membership assignment, and password resets — with the security reasoning (principle of least privilege) behind each configuration decision.
+
+More pieces will be added here as they're completed, covering areas like support ticket workflows.
 
 ## Contact
 
