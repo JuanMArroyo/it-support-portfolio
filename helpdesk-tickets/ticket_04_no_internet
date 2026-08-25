@@ -1,0 +1,38 @@
+# Ticket: No Internet Connectivity — Single Device
+
+**Scenario:**  
+User reports they cannot access the internet on their Windows laptop.  
+Other employees in the same area are not experiencing issues, and Wi-Fi appears connected.
+
+**First Response to User:**  
+Thanks for reaching out — I can help you with this.  
+Let’s check a few quick things to narrow down the issue:
+
+-- Are you connected to the correct Wi-Fi network?
+-- Are you seeing any error messages (e.g., “No Internet,” “Connected, secured”)?
+-- Has anything changed recently (new location, password change, VPN use)?
+-- Are other devices able to access the internet on the same network?
+
+**Internal Notes:**  
+-- Confirmed issue affects only this device  
+-- User connected to correct company Wi-Fi  
+-- No VPN active  
+-- Guided user to run `ipconfig /all`  
+-- Device shows **169.254.x.x** APIPA address → DHCP failure  
+-- Attempted `ipconfig /release` and `ipconfig /renew`  
+-- Renew failed; device still unable to obtain valid IP  
+-- Verified other nearby devices have valid IPs and internet access  
+-- Restarted user’s Wi-Fi adapter → no change  
+-- Had user reboot workstation → no change  
+-- Issue appears isolated to DHCP assignment for this device  
+-- Escalation required for deeper network-side investigation
+
+**Resolution:**  
+Unable to obtain valid IP address after standard DHCP troubleshooting.  
+Escalated to the Network/Infrastructure team for further investigation.
+
+**Root Cause:**  
+Likely DHCP assignment failure specific to the device (not confirmed at Tier 1).
+
+**Preventive Notes:**  
+N/A
