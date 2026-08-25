@@ -19,7 +19,8 @@ Let’s check a few things to identify what’s causing the issue:
 -- Confirmed user is signed in with correct work account  
 -- No error messages reported  
 -- User can access Teams and SharePoint normally  
--- Checked M365 Admin Center → user is **not** listed as a member of the shared mailbox’s Microsoft 365 group  
+-- Checked M365 Admin Center → user is **not** listed as a member of the 
+shared mailbox’s Microsoft 365 group  
 -- Added user to the correct group (Sales Team Shared Mailbox)  
 -- Confirmed membership now appears under both the group and the user’s profile  
 -- Instructed user to restart Outlook to refresh mailbox permissions  
