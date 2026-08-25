@@ -1,0 +1,36 @@
+# Ticket: Unable to Access Shared Mailbox
+
+**Scenario:**  
+User reports they are unable to access the department shared mailbox in Outlook.  
+They state that the mailbox normally appears automatically, but today it is missing.
+
+**First Response to User:**  
+Thanks for reaching out. I can help you with this.  
+Let’s check a few things to identify what’s causing the issue:
+
+-- Are you receiving any error messages when trying to open the shared mailbox?
+-- Has the mailbox disappeared entirely, or does it show but fail to load?
+-- Are you signed into Outlook with your usual work account?
+-- Have you recently changed your password or signed in on a new device?
+-- Can you access other shared resources (Teams, SharePoint) normally?
+
+**Internal Notes:**  
+-- User reports mailbox is missing from Outlook desktop app  
+-- Confirmed user is signed in with correct work account  
+-- No error messages reported  
+-- User can access Teams and SharePoint normally  
+-- Checked M365 Admin Center → user is **not** listed as a member of the shared mailbox’s Microsoft 365 group  
+-- Added user to the correct group (Sales Team Shared Mailbox)  
+-- Confirmed membership now appears under both the group and the user’s profile  
+-- Instructed user to restart Outlook to refresh mailbox permissions  
+-- User restarted Outlook → shared mailbox now appears and loads normally
+
+**Resolution:**  
+-- User was not a member of the shared mailbox’s Microsoft 365 group.  
+Added user to the correct group; mailbox access restored.
+
+**Root Cause:**  
+-- User was removed from the group or never added during onboarding.
+
+**Preventive Notes:**  
+-- Recommend verifying group membership during onboarding and documenting mailbox access requirements.
