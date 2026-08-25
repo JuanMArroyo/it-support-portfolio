@@ -1,0 +1,43 @@
+# Ticket: Printer Not Responding
+
+**Scenario:**  
+User reports they are unable to print from their workstation.  
+Print jobs remain stuck in the queue, and the printer shows as “Offline” in Windows.
+
+**First Response to User:**  
+Thanks for reaching out — I can help you with this.  
+Let’s check a few quick things to narrow down the issue:
+
+-- Are you receiving any specific error messages when trying to print?
+-- Is this a shared office printer or a personal desktop printer?
+-- Are other coworkers able to print to the same printer?
+-- Has anything changed recently (new computer, password change, network move)?
+-- Is the printer showing “Offline,” “Not responding,” or “Paper jam” on the display?
+
+**Internal Notes:**  
+-- User reports printer shows “Offline” in Windows  
+-- Confirmed issue affects only this user; others can print normally  
+-- Guided user to restart the Print Spooler service  
+-- Cleared stuck print jobs from `Control Panel → Devices and
+Printers → Printer Queue`  
+-- Had user remove and re-add the printer  
+-- Printer still shows “Offline”  
+-- Verified user is connected to correct company Wi-Fi  
+-- Ran `ping [printer IP]` → no response from user’s workstation  
+-- Verified printer IP is reachable from another workstation  
+-- Indicates user’s device cannot reach printer on the network  
+-- Restarted user’s Wi-Fi adapter → no change  
+-- Rebooted workstation → no change  
+-- Issue appears to be network path or firewall-related for this specific device  
+-- Escalation required for deeper network investigation
+
+**Resolution:**  
+Unable to reach printer over the network from user’s workstation.  
+Escalated to Network/Infrastructure team for further investigation.
+
+**Root Cause:**  
+Likely network path or firewall issue affecting only the user’s device
+(not confirmed at Tier 1).
+
+**Preventive Notes:**  
+N/A
