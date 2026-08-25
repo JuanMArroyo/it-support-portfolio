@@ -1,0 +1,38 @@
+# Ticket: Microsoft Teams Not Loading
+
+**Scenario:**  
+User reports that Microsoft Teams will not open on their workstation.  
+They receive a message stating they do not have permission or that the 
+app is unavailable.
+
+**First Response to User:**  
+Thanks for reaching out — I can help you with this.  
+Let’s check a few things to narrow down the issue:
+
+-- Are you receiving a specific error message when opening Teams?
+-- Have you recently changed your password or signed in on a new device?
+-- Are you able to access other Microsoft 365 apps (Outlook, OneDrive, SharePoint)?
+-- Are you signed into Teams with your usual work account?
+
+**Internal Notes:**  
+-- User reports Teams shows “You don’t have access to this” when launching  
+-- Confirmed user is signed in with correct work account  
+-- User can access Outlook and SharePoint normally  
+-- Checked Microsoft 365 Admin Center → user **does not** have a Teams-enabled license  
+-- User assigned only an Exchange Online license  
+-- Assigned Microsoft 365 Business Basic license to user  
+-- Verified license assignment propagated  
+-- Instructed user to sign out of Teams and sign back in  
+-- User restarted Teams → app loads successfully and user can access chats 
+and channels
+
+**Resolution:**  
+User was missing a Teams-enabled license.  
+Assigned Microsoft 365 Business Basic license; Teams access restored.
+
+**Root Cause:**  
+Incorrect license assignment during onboarding.
+
+**Preventive Notes:**  
+Recommend verifying license bundles during account provisioning to ensure 
+all required apps are included.
