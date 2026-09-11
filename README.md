@@ -1,6 +1,6 @@
 # IT Support / Help Desk Portfolio
 
-In this repository I solved real world technical issues using clear documentation, troubleshooting workflows, and real help desk ticket examples I've created while preparing for a career in IT support and technical support engineering. Everything here reflects my hands‑on learning, structured troubleshooting practice, and growing understanding of core IT concepts.
+In this repository I solved real world technical issues using clear documentation, troubleshooting workflows, and real help desk ticket examples.
 
 My background includes practical experience with networking fundamentals, Windows administration, Microsoft 365 management, identity and access management, and real-world ticket handling. This portfolio demonstrates how I approach problems, document solutions, and continue developing my technical skills.
 
