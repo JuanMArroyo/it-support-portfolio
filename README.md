@@ -1,6 +1,6 @@
 # IT Support / Help Desk Portfolio
 
-Hi, I'm Juan — this repository contains documentation, troubleshooting workflows, and real help desk ticket examples I've created while preparing for a career in IT support and technical support engineering. Everything here reflects my hands‑on learning, structured troubleshooting practice, and growing understanding of core IT concepts.
+This repository contains documentation, troubleshooting workflows, and real help desk ticket examples I've created while preparing for a career in IT support and technical support engineering. Everything here reflects my hands‑on learning, structured troubleshooting practice, and growing understanding of core IT concepts.
 
 My background includes practical experience with networking fundamentals, Windows administration, Microsoft 365 management, identity and access management, and real-world ticket handling. This portfolio demonstrates how I approach problems, document solutions, and continue developing my technical skills.
 
