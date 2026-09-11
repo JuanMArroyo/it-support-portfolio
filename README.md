@@ -8,7 +8,7 @@ My background includes practical experience with networking fundamentals, Window
 
 ## 📂 Repository Structure
 
-### **[documentation/]**
+### **documentation/**
 Technical reference guides and walkthroughs:
 
 - **network_troubleshooting_reference.md**  
